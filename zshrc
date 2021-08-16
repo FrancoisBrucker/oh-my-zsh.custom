@@ -1,10 +1,4 @@
-#  PATHs
-
-export PATH="/usr/local/sbin:$PATH"
-export PATH="/usr/local/bin:$PATH"
-
-export PATH="/usr/local/opt/ruby/bin:$PATH"
-
+export PATH="prout:$PATH"
 # oh-my-zsh stuff
 export ZSH="/Users/fbrucker/.oh-my-zsh"
 
@@ -31,6 +25,15 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 PROMPT='%{$fg[$NCOLOR]%}%n%{$fg[green]%}@%m%{$reset_color%} %2~ \
 $(git_prompt_info)\
 %{$fg[red]%}%(!.#.»)%{$reset_color%} '
+
+#  PATHs
+
+# local
+export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/bin:$PATH"
+
+# ruby
+export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/2.7.0/bin:$PATH"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/fbrucker/.sdkman"
