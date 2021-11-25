@@ -11,7 +11,7 @@ plugins=(
   web-search
   history
   emacs
-  osx
+  macos
   zsh-autosuggestions
 )
 
