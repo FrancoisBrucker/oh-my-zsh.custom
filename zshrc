@@ -10,7 +10,6 @@ plugins=(
   git
   web-search
   history
-  emacs
   macos
   zsh-autosuggestions
 )
@@ -33,7 +32,7 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 
 # ruby
-export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/2.7.0/bin:$PATH"
+export PATH="/usr/local/opt/ruby@3.0/bin:/usr/local/lib/ruby/gems/2.7.0/bin:$PATH"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/fbrucker/.sdkman"
