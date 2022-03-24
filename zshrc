@@ -1,4 +1,3 @@
-export PATH="prout:$PATH"
 # oh-my-zsh stuff
 export ZSH="/Users/fbrucker/.oh-my-zsh"
 
