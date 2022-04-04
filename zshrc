@@ -14,7 +14,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
 
@@ -31,7 +31,7 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 
 # ruby
-export PATH="/usr/local/opt/ruby/bin:$PATH"
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/fbrucker/.sdkman"
